@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Ubuntu:wght@400;700');
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 0;
+}
+
+li{
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+    font-size: 18px;
+    color: #10132c;
+    font-weight: 600;
+}
+
+button{
+    height: 48px;
+    min-width: auto;
+    margin-top: 0;
+    padding: 10px 38px;
+    border: 2px solid #e04f4f;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: 170ms;
+    transition: 170ms;
+    color: #e04f4f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button:hover{
+    background-color: #e04f4f;
+    color: #fff;
+}
